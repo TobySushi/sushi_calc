@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+#inputs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20pt;
+}
+
+.input_button {
+    background-color: #bed0d1;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #687678;
+    border-radius: 10px;
+    box-shadow: 0px 5px #9baaab;
+    transition: all .2s ease-in-out;
+}
+
+.input_button:hover {
+    transform: scale(0.9);
+    animation: rainbow-bg 2.5s linear;
+    animation-iteration-count: infinite;
+}
+
+.display{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: #939e9e;
+    margin-top: 5px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0px -5px#6c7575;
+}
+
+.clear{
+    background-color: #f69;
+    box-shadow: 0px 5px#b54c6f;
+    color: #963e5b;
+}
+
+@keyframes rainbow-bg{
+    100%,0%{
+        background-color: #ff9aa2
+    }
+    16%{
+        background-color: #ffb7b2
+    }
+    32%{
+        background-color: #ffdac1
+    }
+    48%{
+        background-color: #e2f0cb
+    }
+    64%{
+        background-color: #b5ead7
+    }
+    80%{
+        background-color: #c7ceea
+    }
+}

@@ -39,4 +39,4 @@ app.on('activate', () => {
     }
 })
 
-
+var display_string = "";
