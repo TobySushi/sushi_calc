@@ -9,7 +9,8 @@ function createWindow () {
     //window parameters
     window = new BrowserWindow({
         width: 600,
-        height: 800
+        height: 700,
+        frame: false
     })
 
     window.loadFile('main.html');
@@ -38,5 +39,3 @@ app.on('activate', () => {
         createWindow();
     }
 })
-
-var display_string = "";
