@@ -12,8 +12,6 @@
   ],
   "author": "Toby (sushi)",
   "license": "ISC",
-  "devDependencies": {
-    "electron": "^6.0.2"
-  },
+  "devDependencies": {},
   "dependencies": {}
 }

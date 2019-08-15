@@ -1,0 +1,21 @@
+{
+  "name": "sushi_calc",
+  "version": "1.0.0",
+  "description": "A simple calculator made to practice electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "calculator",
+    "simple"
+  ],
+  "author": "Toby (sushi)",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.2"
+  },
+  "dependencies": {
+    "packager": "0.0.4"
+  }
+}
