@@ -13,7 +13,7 @@
   "author": "Toby (sushi)",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^6.0.2"
+    "electron": "^18.3.7"
   },
   "dependencies": {
     "packager": "0.0.4"
